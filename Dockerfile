@@ -1,2 +1,2 @@
 FROM evolvingweb/sitediff:latest
-CMD /bin/bash
+CMD ["tail", "-f", "/dev/null"]
